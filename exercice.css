@@ -1,0 +1,48 @@
+body{
+  margin-left: 20px;
+}
+img{
+  height: 40px;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+select{
+  height: 35px;
+  width: 150px;
+}
+input{
+  height: 30px;
+  border: none;
+}
+input:hover{
+  background-color: aliceblue;
+  border: black solid 1px;
+}
+iframe{
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+.date{
+  display: flex;
+  justify-content: center;
+}
+.date h2{
+  font-size: 20px;
+}
+.exo{
+  display: flex;
+  justify-content: space-around;
+}
+.puce{
+  background-color: aliceblue;
+  padding-left: 10px;
+  flex-basis: 25%;
+}
+.sql{
+  background-color: azure;
+  padding-left: 10px;
+  flex-basis: 25%;
+}
