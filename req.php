@@ -1,9 +1,10 @@
 <?php
+if (!empty($_GET)) {
+  $value = $_GET['pays'];
+  getCapitale($value);
+};
 
-$value = $_GET['pays'];
-getCapitale($value);
 $listePays = getPays();
-//echo $listePays[1];
 
 function getCapitale($pays)
 {
